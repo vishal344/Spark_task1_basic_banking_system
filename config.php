@@ -2,7 +2,7 @@
 
 $server="localhost";
 $username="root";
-$password="admin";
+$password="";
 $db="sparks_bank";
 
 $conn=mysqli_connect($server,$username,$password,$db);
