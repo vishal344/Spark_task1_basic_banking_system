@@ -67,7 +67,7 @@ if(isset($_POST['submit']))
 
                 if($query){
                      echo "<script> alert('Transaction Successful');
-                                     window.location='transactionhistory.php';
+                                     window.location='transactionhistory1.php';
                            </script>";
                     
                 }
@@ -113,7 +113,7 @@ if(isset($_POST['submit']))
 	<div class="container">
         <h2 class="text-center pt-4">Transaction</h2>
             <?php
-                include 'config.php';
+                include 'config1.php';
                 $sid=$_GET['id'];
                 $sql = "SELECT * FROM  users where id=$sid";
                 $result=mysqli_query($conn,$sql);
