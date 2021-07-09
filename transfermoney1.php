@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transfer Money</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/table.css">
+    <link rel="stylesheet" type="text/css" href="css/table1.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
 
     <style type="text/css">
@@ -21,13 +21,13 @@
 
 <body>
 <?php
-    include 'config.php';
+    include 'config1.php';
     $sql = "SELECT * FROM users";
     $result = mysqli_query($conn,$sql);
 ?>
 
 <?php
-  include 'navbar.php';
+  include 'navbar1.php';
 ?>
 
 <div class="container">

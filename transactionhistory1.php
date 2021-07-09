@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transaction History</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/table.css">
+    <link rel="stylesheet" type="text/css" href="css/table1.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
 </head>
 
 <body>
 
 <?php
-  include 'navbar.php';
+  include 'navbar1.php';
 ?>
 
 	<div class="container">
@@ -33,7 +33,7 @@
         <tbody>
         <?php
 
-            include 'config.php';
+            include 'config1.php';
 
             $sql ="select * from transaction";
 

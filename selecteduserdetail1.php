@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include 'config1.php';
 
 if(isset($_POST['submit']))
 {
@@ -86,7 +86,7 @@ if(isset($_POST['submit']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transaction</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/table.css">
+    <link rel="stylesheet" type="text/css" href="css/table1.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
 
     <style type="text/css">
@@ -107,7 +107,7 @@ if(isset($_POST['submit']))
 <body>
  
 <?php
-  include 'navbar.php';
+  include 'navbar1.php';
 ?>
 
 	<div class="container">
@@ -145,7 +145,7 @@ if(isset($_POST['submit']))
         <select name="to" class="form-control" required>
             <option value="" disabled selected>Choose</option>
             <?php
-                include 'config.php';
+                include 'config1.php';
                 $sid=$_GET['id'];
                 $sql = "SELECT * FROM users where id!=$sid";
                 $result=mysqli_query($conn,$sql);

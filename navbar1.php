@@ -44,20 +44,20 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.php" style="color: #fff; font-size: x-large;"> <i
+            <a class="nav-link active" aria-current="page" href="index1.php" style="color: #fff; font-size: x-large;"> <i
                 class="fa fa-home" aria-hidden="true"></i>Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="transfermoney.php" style="color: #fff; font-size: x-large;"> <i
+            <a class="nav-link active" aria-current="page" href="transfermoney1.php" style="color: #fff; font-size: x-large;"> <i
                 class="fa fa-user-o" aria-hidden="true"></i>All user</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="transfermoney.php" style="color: #fff; font-size: x-large;"> <i
+            <a class="nav-link active" aria-current="page" href="transfermoney1.php" style="color: #fff; font-size: x-large;"> <i
                 class="fa fa-university" aria-hidden="true"></i>Transfer money</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="transactionhistory.php" style="color: #fff; font-size: x-large;"> <i
+            <a class="nav-link active" aria-current="page" href="transactionhistory1.php" style="color: #fff; font-size: x-large;"> <i
                 class="fa fa-exchange" aria-hidden="true"></i>History</a>
           </li>
 

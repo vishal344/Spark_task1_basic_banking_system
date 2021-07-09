@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
 
     <title>Basic Banking System</title>
@@ -34,7 +34,7 @@
 
 <body>
     <?php
-  include 'navbar.php';
+  include 'navbar1.php';
   ?>
 
     <div class="container-fluid">
@@ -55,18 +55,18 @@
                 <br><br>
                 <img src="img/user1.jpg" class="img-fluid">
                 <br><br>
-                <a href="transfermoney.php"><button class="b1">View all Users</button></a>
+                <a href="transfermoney1.php"><button class="b1">View all Users</button></a>
             </div>
             <div class="col-md act">
                 <br><br>
                 <img src="img/transfer_money.jpg" class="img-fluid">
                 <br><br>
-                <a href="transfermoney.php"><button class="b1"> Transfer Money</button></a>
+                <a href="transfermoney1.php"><button class="b1"> Transfer Money</button></a>
             </div>
             <div class="col-md act">
                 <img src="img/history.png" class="img-fluid">
                 <br>
-                <a href="transactionhistory.php"><button class="b1" >View Transfer History</button></a>
+                <a href="transactionhistory1.php"><button class="b1" >View Transfer History</button></a>
             </div>
         </div>
     </div>
